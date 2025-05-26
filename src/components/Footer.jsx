@@ -1,6 +1,10 @@
 import Link from 'next/link'
 
 import { ContainerInner, ContainerOuter } from '@/components/Container'
+import {
+  FacebookIcon,
+  InstagramIcon,
+} from '@/components/SocialIcons'
 
 function NavLink({ href, children }) {
   return (
@@ -32,9 +36,11 @@ export function Footer() {
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                <NavLink href="mailto:hoqueiempatins.academicofc@gmail.com">
-                  <MailIcon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-amber-500" />
-                  <span className="ml-4">hoqueiempatins.academicofc@gmail.com</span>
+                <NavLink href="https://www.facebook.com/AcademicoFCoficial/">
+                  <FacebookIcon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-amber-500" />
+                </NavLink>
+                <NavLink href="https://www.instagram.com/academico.fc">
+                  <InstagramIcon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-amber-500" />
                 </NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">

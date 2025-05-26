@@ -82,7 +82,7 @@ export const metadata = {
 export default function Home() {
   return (
     <Container className="mt-16 sm:mt-32">
-      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[min-content,min-content,1fr] lg:gap-y-12">
+      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[min-content_min-content_1fr] lg:gap-y-12">
         <div className="lg:pl-20">
           <div className="max-w-s px-2.5 lg:max-w-none">
             <Image
@@ -166,6 +166,9 @@ export default function Home() {
               <span className="ml-4">16:30 - 17:00 Lanche e fecho do dia</span>
             </li>
           </ul>
+          <p className="text-sm italic">
+            Nota: O plano de atividades detalhado será divulgado oportunamente.
+          </p>
           <h2 id="inscricao" className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
             <CurrencyEuroIcon className="h-6 w-6 flex-none" />
             <span className="ml-3">Valor da Inscrição</span>
