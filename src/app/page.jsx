@@ -122,7 +122,7 @@ export default function Home() {
           <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
             Este ano a secção de Hóquei em Patins do Académico Futebol Clube
             tem programadas 2 semanas de Academias, abertas a todos os interessados,
-            tanto alunos internos como externos, a começar dia 30 de junho com o
+            tanto atletas internos como externos, a começar dia 30 de junho com o
             seguinte calendário:
           </p>
           <ul role="list">
@@ -205,7 +205,7 @@ export default function Home() {
           <p className="text-sm text-zinc-600 dark:text-zinc-400">
             Rua de Costa Cabral 182, 4200-208 Porto
           </p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.6786605608095!2d-8.60462272386349!3d41.16336267132922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464590bd72d87%3A0x2fe12e0108ea06e0!2sAcad%C3%A9mico%20Futebol%20Club!5e0!3m2!1sen!2spt!4v1748272122396!5m2!1sen!2spt" className="w-full aspect-[3/2]" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.6786605608095!2d-8.60462272386349!3d41.16336267132922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464590bd72d87%3A0x2fe12e0108ea06e0!2sAcad%C3%A9mico%20Futebol%20Club!5e0!3m2!1sen!2spt!4v1748272122396!5m2!1sen!2spt" className="w-full aspect-[3/2]" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div className="lg:pl-20">
           <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
@@ -256,7 +256,7 @@ export default function Home() {
                 href="mailto:hoqueiempatins.academicofc@gmail.com"
                 className="group flex text-sm font-medium text-zinc-800 transition hover:text-amber-500 dark:text-zinc-200 dark:hover:text-amber-500"
               >
-                <MailIcon className="h-6 w-6 flex-none transition group-hover:fill-amber-500" />
+                <MailIcon className="h-6 w-6 flex-none transition dark:fill-zinc-200 group-hover:fill-amber-500" />
                 <span className="ml-4">hoqueiempatins.academicofc@gmail.com</span>
               </Link>
             </li>
