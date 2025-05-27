@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import cartazImage from '@/images/cartaz.png'
+import cartazImage from '@/images/cartaz.jpeg'
 
 function CalendarDaysIcon(props) {
   return (
