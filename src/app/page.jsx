@@ -103,6 +103,7 @@ export default function Home() {
             Vem patinar connosco nas férias!
           </h2>
           <div className="space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <p>🛑 As inscrições para as Férias com Hóquei 2025 estão encerradas. Obrigado a todos os participantes!</p>
             <p>
               O Académico Futebol Clube vai transformar o seu pavilhão no coração
               do Porto num espaço cheio de energia, diversão e... stick na mão!
@@ -245,8 +246,8 @@ export default function Home() {
             <p className="mt-4 text-sm italic">
               Nota 2: O número limite de inscritos por semana, está condicionado em função da disponibilidade dos treinadores.
             </p>
-            <Button target="_blank" href="https://forms.gle/fkCfLn6WucibpfuCA" variant="primary" className="group mt-6 w-full">
-              Inscreve-te!
+            <Button disabled target="_blank" href="https://forms.gle/fkCfLn6WucibpfuCA" variant="primary" className="group mt-6 w-full">
+              Inscrições encerradas
               <PencilSquareIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
             </Button>
           </div>
