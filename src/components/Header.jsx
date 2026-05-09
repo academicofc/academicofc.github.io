@@ -14,7 +14,6 @@ import {
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/avatar.jpg'
 
 function CloseIcon(props) {
   return (
@@ -200,7 +199,7 @@ function AvatarContainer({ className, ...props }) {
   )
 }
 
-function Avatar({ large = false, className, ...props }) {
+function Avatar({ large = false, className, avatarImage, ...props }) {
   return (
     <Link
       href="/"
@@ -222,7 +221,7 @@ function Avatar({ large = false, className, ...props }) {
   )
 }
 
-export function Header() {
+export function Header({ avatarImage }) {
   let isHomePage = usePathname() === '/'
 
   let headerRef = useRef(null)
@@ -367,6 +366,7 @@ export function Header() {
                   <Avatar
                     large
                     className="block h-16 w-16 origin-left"
+                    avatarImage={avatarImage}
                     style={{ transform: 'var(--avatar-image-transform)' }}
                   />
                 </div>
@@ -391,7 +391,7 @@ export function Header() {
               <div className="flex flex-1">
                 {!isHomePage && (
                   <AvatarContainer>
-                    <Avatar />
+                    <Avatar avatarImage={avatarImage} />
                   </AvatarContainer>
                 )}
               </div>

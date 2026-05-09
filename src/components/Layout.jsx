@@ -1,7 +1,6 @@
 import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
 
-export function Layout({ children }) {
+export function Layout({ children, avatarImage }) {
   return (
     <>
       <div className="fixed inset-0 flex justify-center sm:px-8">
@@ -10,8 +9,7 @@ export function Layout({ children }) {
         </div>
       </div>
       <div className="relative flex w-full flex-col">
-        <Header />
-        <main className="flex-auto">{children}</main>
+        {children}
         <Footer />
       </div>
     </>

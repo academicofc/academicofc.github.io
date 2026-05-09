@@ -31,6 +31,9 @@ export function Footer() {
                 <NavLink href="https://www.instagram.com/academico.fc">
                   <InstagramIcon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-amber-500" />
                 </NavLink>
+                <Link href="/archive/2025" className="text-sm text-zinc-400 dark:text-zinc-500">
+                  Arquivo 2025
+                </Link>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Hóquei em patins Académico FC. Todos os direitos reservados.
