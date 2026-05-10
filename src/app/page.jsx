@@ -39,7 +39,6 @@ export default function Home() {
               Vem patinar connosco nas férias!
             </h2>
             <div className="space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>🛑 As inscrições para as Férias com Hóquei 2025 estão encerradas. Obrigado a todos os participantes!</p>
               <p>
                 O Académico Futebol Clube vai transformar o seu pavilhão no coração
                 do Porto num espaço cheio de energia, diversão e... stick na mão!
