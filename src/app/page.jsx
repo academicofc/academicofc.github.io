@@ -182,7 +182,7 @@ export default function Home() {
               <p className="mt-4 text-sm italic">
                 Nota 2: O número limite de inscritos por semana, está condicionado em função da disponibilidade dos treinadores.
               </p>
-              <Button target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe4ughWXQWrAQ4rUGyXIG6nHwMiuI_0ehKSzJN9n487Vk_Nmw/viewform" variant="primary" className="group mt-6 w-full">
+              <Button target="_blank" href="https://forms.gle/p4oop7ahqiPL62dVA" variant="primary" className="group mt-6 w-full">
                 Inscreve-te!
                 <PencilSquareIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
               </Button>
