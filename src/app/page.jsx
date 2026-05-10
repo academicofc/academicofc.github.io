@@ -6,7 +6,7 @@ import { Container } from '@/components/Container'
 import { CalendarDaysIcon, CalendarDateRangeIcon, MailIcon, GlobeAltIcon, PencilSquareIcon, ClockIcon, CurrencyEuroIcon, MapPinIcon } from '@/components/Icons'
 import { Header } from '@/components/Header'
 import avatarImage from '@/images/avatar-2026.jpg'
-import cartazImage from '@/images/cartaz-2026.jpeg'
+import cartazImage from '@/images/cartaz-2026.jpg'
 
 export const metadata = {
   title: 'Campo de Férias Hóquei em Patins 2026',
