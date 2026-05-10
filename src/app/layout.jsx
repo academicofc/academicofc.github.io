@@ -10,7 +10,7 @@ export const metadata = {
     default:
       'Hóquei em patins Académico FC',
   },
-  description: 'Campo de Férias Hóquei em Patins no Académico FC 2025. Vem patinar connosco nas férias!',
+  description: 'Campo de Férias Hóquei em Patins no Académico FC 2026. Vem patinar connosco nas férias!',
 }
 
 export default function RootLayout({ children }) {

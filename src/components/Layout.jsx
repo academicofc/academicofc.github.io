@@ -1,6 +1,6 @@
 import { Footer } from '@/components/Footer'
 
-export function Layout({ children, avatarImage }) {
+export function Layout({ children }) {
   return (
     <>
       <div className="fixed inset-0 flex justify-center sm:px-8">
