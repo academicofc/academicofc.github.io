@@ -91,7 +91,7 @@ export default function Home() {
                 <span className="ml-4">12:00 - 12:30 Oficinas temáticas (valores do desporto, nutrição, arbitragem, etc.)</span>
               </li>
               <li className="mt-4 flex">
-                Almoço (existe possibilidade de almoço nas instalações, com supervisão, e têm um custo adicional de 6,50€/dia)
+                Os almoços não estão incluídos. Os atletas poderão trazer o seu próprio almoço, sendo disponibilizado um micro-ondas para aquecimento das refeições.
               </li>
               <li className="mt-4 flex">
                 <ClockIcon className="h-6 w-6 flex-none" />
@@ -113,11 +113,11 @@ export default function Home() {
               Consulta os valores de inscrição para participares:
             </p>
             <ul className="text-sm text-zinc-600 dark:text-zinc-400" role="list">
-              <li>40€ por semana</li>
-              <li>70€ para quem se inscrever nas duas semanas</li>
+              <li>50€ por semana</li>
+              <li>90€ para quem se inscrever nas duas semanas</li>
             </ul>
             <p className="text-sm italic">
-              Nota: Almoços não incluídos (existe possibilidade de almoço nas instalações, com supervisão, e têm um custo adicional de 6.50€/dia).
+              Nota: Os almoços não estão incluídos. Os atletas poderão trazer o seu próprio almoço, sendo disponibilizado um micro-ondas para aquecimento das refeições.
             </p>
             <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
               Para quem?
@@ -168,15 +168,15 @@ export default function Home() {
               <ul className="mt-4" role="list">
                 <li className="flex">
                   <CurrencyEuroIcon className="h-6 w-6 flex-none" />
-                  <span className="ml-4">40€ por semana</span>
+                  <span className="ml-4">50€ por semana</span>
                 </li>
                 <li className="mt-4 flex">
                   <CurrencyEuroIcon className="h-6 w-6 flex-none" />
-                  <span className="ml-4">70€ para quem se inscrever nas duas semanas</span>
+                  <span className="ml-4">90€ para quem se inscrever nas duas semanas</span>
                 </li>
               </ul>
               <p className="mt-4 text-sm italic">
-                Nota: Almoços não incluídos (existe possibilidade de almoço nas instalações, com supervisão, e têm um custo adicional de 6,50€/dia).
+                Nota: Os almoços não estão incluídos. Os atletas poderão trazer o seu próprio almoço, sendo disponibilizado um micro-ondas para aquecimento das refeições.
               </p>
               <p className="mt-4 text-sm italic">
                 Nota 2: O número limite de inscritos por semana, está condicionado em função da disponibilidade dos treinadores.
